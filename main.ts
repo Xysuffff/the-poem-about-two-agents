@@ -12,3 +12,4 @@ mkdirSync(dirname(outputPath), { recursive: true });
 writeFileSync(outputPath, poem, "utf8");
 console.log("Poem written to", outputPath);
 console.log("Length:", poem.length, "chars");
+console.log("Valid: 1-280 chars, UTF-8, not whitespace-only");
